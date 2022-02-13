@@ -1,0 +1,345 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/sub-service.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav class="nav-about" id="navbar">
+        <div class="nav-flex-divider">
+            <div class="logo-container">
+                <a href="/">  <img class="logo-image" src="assets/img/AlyansGroup-black.svg" alt=""> </a>
+            </div>
+            <div class="nav-contacts">
+                        <span>
+                            <a class="about-nav-contact-links" href="https://www.google.com/maps/place/1+M%C9%99sud+Davudo%C4%9Flu,+Bak%C4%B1,+%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD/@40.422465,49.8334264,17z/data=!3m1!4b1!4m5!3m4!1s0x403087dd621842a1:0x96bb37d1716932ca!8m2!3d40.4224609!4d49.8356151" >
+                            Məsud Davudoğlu 1 D
+                            </a>
+                        </span>
+                <span class="dash">
+                            <img class="dash-image"src="assets/img/dash-black.svg" alt="">
+                        </span>
+                <span  itemprop="telephone">
+                            <a class="about-nav-contact-links" href="tel:+994556397031">
+                            +994 55 639 70 31
+                            </a>
+                        </span>
+                <span class="dash">
+                            <img class="dash-image" src="assets/img/dash-black.svg" alt="">
+                        </span>
+                <span class="email">
+                            <a class="about-nav-contact-links"  href='javascript:;'>
+                          office@alyansgroup.az
+                        </a>
+                        </span>
+                <span class="search-span">
+                    <a class="search-span search-span-desktop" href="#"> <img class="dash-image" id="dashImage" src="assets/img/search-icon-black.svg" alt=""></a>
+                </span>
+            </div>
+        </div>
+        <span class="search-span-copy">
+            <a class="search-span search-span-mobile" href="#"><img class="dash-image" src="assets/img/search-icon-black.svg" alt=""></a>
+        </span>
+        <div class="lang-menu-container">
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="./service.html">az</a></span>
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="russian-pages/service-ru.html">ru</a></span>
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="english-pages/service-eng.html">eng</a></span>
+            <span class="menu-icon-container about-menu-icon-container pseMan" id="menuIcon" onclick="addMargin(this)">
+                <a class="menu-icon-container-link" href="##" >
+                    <span class="menu-icon-text about-menu-icon-text">menu</span>
+                </a>
+            </span>
+        </div>
+    </nav> 
+    
+    <div class="menu-overlay">
+        <div class="menu-overlay-container">
+            <ul class="menu">
+                <li class="menu-li"><a class="overlay-links" href="/">Ana səhifə</a></li>
+                <li class="menu-li"><a class="overlay-links" href="service.html">Xidmətlərimiz</a></li>
+                <li class="menu-li"><a class="overlay-links" href="about.html">Haqqımızda</a></li>
+                <li class="menu-li"><a class="overlay-links" href="news.html">Xəbərlər/Yeniliklər</a></li>
+                <li class="menu-li"><a class="overlay-links" href="form.html">Əlaqə</a></li>
+            </ul>
+        
+            <div class="menu-social-media-icon-container-div">
+        
+                <a class="overlay-links" href="https://www.youtube.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="youtube-icon-black" d="M16.679,17.438l8.5,4.83-8.5,4.83ZM40,6.536V37.964a4.287,4.287,0,0,1-4.286,4.286H4.286A4.287,4.287,0,0,1,0,37.964V6.536A4.287,4.287,0,0,1,4.286,2.25H35.714A4.287,4.287,0,0,1,40,6.536ZM36.25,22.277a42.9,42.9,0,0,0-.679-7.875A4.075,4.075,0,0,0,32.7,11.509c-2.527-.687-12.7-.687-12.7-.687s-10.17,0-12.7.688A4.075,4.075,0,0,0,4.429,14.4a42.85,42.85,0,0,0-.679,7.875,42.9,42.9,0,0,0,.679,7.875A4.017,4.017,0,0,0,7.3,33c2.527.679,12.7.679,12.7.679s10.17,0,12.7-.688a4.017,4.017,0,0,0,2.875-2.848,42.771,42.771,0,0,0,.679-7.866Z" transform="translate(0 -2.25)" fill="black"/>
+                    </svg>
+        
+                </a>
+                <a  class="overlay-links" id="social-media-icon-in-middle" href="https://www.facebook.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="fb-icon-black" d="M35.714,2.25H4.286A4.286,4.286,0,0,0,0,6.536V37.964A4.286,4.286,0,0,0,4.286,42.25H16.54v-13.6H10.915v-6.4H16.54V17.371c0-5.549,3.3-8.614,8.363-8.614a34.077,34.077,0,0,1,4.957.432v5.446H27.069c-2.751,0-3.609,1.707-3.609,3.458V22.25H29.6l-.982,6.4H23.46v13.6H35.714A4.286,4.286,0,0,0,40,37.964V6.536A4.286,4.286,0,0,0,35.714,2.25Z" transform="translate(0 -2.25)" fill="black"/>
+                    </svg>
+        
+                </a>
+                <a class="overlay-links" href="https://www.instagram.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="insta-icon-black" d="M20,11.982A10.255,10.255,0,1,0,30.252,22.238,10.238,10.238,0,0,0,20,11.982Zm0,16.923a6.667,6.667,0,1,1,6.666-6.667A6.679,6.679,0,0,1,20,28.905ZM33.063,11.563a2.392,2.392,0,1,1-2.392-2.392A2.386,2.386,0,0,1,33.063,11.563Zm6.791,2.428c-.152-3.2-.883-6.043-3.23-8.381s-5.176-3.07-8.379-3.231c-3.3-.187-13.2-.187-16.5,0C8.55,2.53,5.713,3.262,3.366,5.6S.3,10.777.135,13.982c-.187,3.3-.187,13.2,0,16.5.152,3.2.883,6.043,3.23,8.381s5.176,3.07,8.379,3.231c3.3.187,13.2.187,16.5,0,3.2-.152,6.041-.884,8.379-3.231s3.07-5.177,3.23-8.381c.187-3.3.187-13.192,0-16.494ZM35.589,34.028a6.749,6.749,0,0,1-3.8,3.8c-2.632,1.044-8.879.8-11.788.8s-9.165.232-11.788-.8a6.749,6.749,0,0,1-3.8-3.8c-1.044-2.633-.8-8.881-.8-11.791s-.232-9.167.8-11.791a6.749,6.749,0,0,1,3.8-3.8c2.632-1.044,8.879-.8,11.788-.8s9.165-.232,11.788.8a6.749,6.749,0,0,1,3.8,3.8c1.044,2.633.8,8.881.8,11.791S36.633,31.4,35.589,34.028Z" transform="translate(0.005 -2.238)" fill="black"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="modal-close-mobile" id="cancelBtnMove" style="display: none" onclick="mobileCancel()">
+                <img src="assets/img/cancel.png" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+ 
+<div class="modal-bg">
+    <div class="modal">
+        <div class="modal-wrapper">
+            <div class="modal-close">
+            </div>
+        </div>
+        <div class="modal-input-wrapper">
+            <input type="text" placeholder="Axtarış edin" class="modal-input" >
+        </div>
+    </div>
+</div>
+ 
+<section class="who-we-are">
+    <div class="whois about">
+        <div class="general-service-content-container">
+            <p class="general-service-content-subheader animation-subheader">NƏ EDİRİK ? NECƏ ÇALIŞIRIQ ?</p>
+            <h1 class="general-service-content-header service-header-color animation-header">Xidmətlərimiz</h1>
+            <p class="general-service-content-description animation-description">Siz ofisinizdə mühasib saxlamaq üçün əlavə xərc çəkmirsiniz. İşinizin aparılması üçün avadanlıq və ofis ləvazimatları almırsınız. Sizə işçi üçün əlavə sahə lazım deyil. Təcili vəziyyətdə komandamızda hər zaman “ehtiyat oyunçu” olur. Mühasibiniz tətilə gedəcəyi, xəstələnəcəyi və ya ən vacib anda tamamilə işdən çıxacağı halda narahat olmağa ehtiyac yoxdur. Ehtiyat əməkdaşımız sizə həmişə yardımçı olacaq.  </p>
+        </div>
+        <div class="service-image-container generally-image-container">
+ 
+            <img class="service-img-up" src="DesignGuide/service-img.png" alt="">
+ 
+        </div>
+    </div>
+</section>
+ 
+<section class="our-services">
+    <div class="our-services-title">
+        <h1 class="services-general-header">Xidmətlərimiz</h1>
+        <h2 class="general-service-content-subheader general-service-content-subheader-new">Biznesinizə necə dəstək olacağıq?</h2>
+    </div>
+    <div class="services-container">
+        <div class="service-tile service-tile-one">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Mühasibat uçotu və nəzarəti</h2>
+                <p class="service-tile-description">İlkin sənədlərin düzgün geydiyyata alınması və tənzimlənməsi, ümumi və büdcədən kənar fond gəlirlərinin hesablanması</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+        <div class="service-tile service-tile-middle service-tile-two">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Audit</h2>
+                <p class="service-tile-description">Hesabatların vaxtında tam, tez və qanuni yoxlanışının aparılması</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+        <div class="service-tile service-tile-three">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Hesabatların hazırlanması, təqdimatı</h2>
+                <p class="service-tile-description">Vergiyə aid hesabatların qanunvericiliyə uyğun hazırlanması, sahibkarlar üçün bütün hesabatlar və formaların hazırlanması</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+ 
+        <div class="service-tile service-tile-four">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Hüquqi məsələlər</h2>
+                <p class="service-tile-description">Hər hansı bir hüquqi mövzuda məsləhətin verilməsi, istənilən müqavilələrin hazırlanması, qarşı tərəflərin, müqavilələrin və əməliyyatların qanuni yoxlanılması</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+        <div class="service-tile service-tile-middle service-tile-five">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Kadr uçotu</h2>
+                <p class="service-tile-description">Əmək haqqının hesablanması Kadrlar uçotu işlərinin əmək məcəlləsinə uyğun tənzimləməsi</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+        <div class="service-tile service-tile-sixth">
+            <a href="single-service-page.html">
+                <h2 class="service-small-header">Bank-Müştəri sisteminin aparılması</h2>
+                <p class="service-tile-description">Tələb olunan valyutada cari hesab açmaq üçün lazımi sənədlər toplusunu hazırlayaraq kommersiya bankına təqdim edəcəyik</p>
+                <div class="service-tile-link-container">
+                    <a class="content-links service-tile-link" href="single-service-page.html">Ətraflı məlumat<span class="service-tile-link-arrow-span"><i class="fas fa-long-arrow-alt-right"></i></span></a>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+ 
+<div style="display: inline-flex; flex-direction: column ; margin-left: 6%;">
+    <a class="general-service-content-links whois-links new-distant-links animation-links" href="form.html"><p>Bizimlə əlaqə</p><span><img class="content-arrow" src="assets/img/orange-arrow.svg" alt=""></span></a>
+    <a class="general-service-content-links whois-links new-distant-links new-distant-links-last animation-links" href="about.html"><p>Haqqımızda</p><span><img class="content-arrow" src="assets/img/orange-arrow.svg" alt=""></span></a>
+</div>
+ 
+<div class="margin-between-footer-and-news"></div>
+ 
+<footer>
+    <div class="footer-flex-sections-container">
+        <div class="footer-part-1">
+            <img class="footer-logo" src="assets/img/AlyansGroup-white.svg" alt="">
+
+            <div class="footer-menu-container">
+                <ul class="footer-menu-2">
+                    <li class="footer-li footer-li-header">Şirkət</li>
+                    <li class="footer-li"> <a class="footer-general-text-links" href="/"> Ana səhifə</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="service.html"> Xidmətlər</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="about.html">Haqqımızda</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="news.html">Xəbərlər</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="form.html">Əlaqə</a></li>
+                </ul>
+                <ul class="footer-menu-3">
+                    <li class="footer-li footer-li-header">Xidmətlər</li>
+                    <li class="footer-li"><a href="footer-general-text-links">Mühasibat uçotu</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Audit</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Hesabatlar</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Hüquqi məsələlər</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Kadr uçotu</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Bank-Müştəri sisteminin aparılması</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="footer-social-icons-container-585px footer-li">
+                <div class="footer-social-icons-container">
+                    <a class="footer-li-img-1" href="#">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20">
+                            <path id="linkedin-icon-white" d="M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.858V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.074V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.763,4.968,6.353V20Z" transform="translate(0 -0.001)" fill="#fafafa"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-social-icons-container">
+                    <a  class="footer-li-img-2" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20">
+                            <path id="fb-icon-white" d="M17.857,2.25H2.143A2.143,2.143,0,0,0,0,4.393V20.107A2.143,2.143,0,0,0,2.143,22.25H8.27v-6.8H5.458v-3.2H8.27V9.811C8.27,7.036,9.922,5.5,12.452,5.5a17.039,17.039,0,0,1,2.479.216V8.443h-1.4a1.6,1.6,0,0,0-1.8,1.729V12.25H14.8l-.491,3.2H11.73v6.8h6.127A2.143,2.143,0,0,0,20,20.107V4.393A2.143,2.143,0,0,0,17.857,2.25Z" transform="translate(0 -2.25)" fill="#fafafa"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer-social-icons-container">
+                    <a class="footer-li-img-3" href="#">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 20 20">
+                            <path id="insta-icon-white" d="M10,7.11a5.128,5.128,0,1,0,5.127,5.128A5.119,5.119,0,0,0,10,7.11Zm0,8.461a3.334,3.334,0,1,1,3.333-3.334A3.339,3.339,0,0,1,10,15.571ZM16.529,6.9a1.2,1.2,0,1,1-1.2-1.2A1.193,1.193,0,0,1,16.529,6.9Zm3.4,1.214a5.92,5.92,0,0,0-1.615-4.191,5.956,5.956,0,0,0-4.19-1.616c-1.651-.094-6.6-.094-8.25,0A5.947,5.947,0,0,0,1.68,3.919,5.939,5.939,0,0,0,.065,8.11c-.094,1.651-.094,6.6,0,8.252A5.92,5.92,0,0,0,1.68,20.552a5.963,5.963,0,0,0,4.19,1.616c1.651.094,6.6.094,8.25,0a5.917,5.917,0,0,0,4.19-1.616,5.959,5.959,0,0,0,1.615-4.191c.094-1.651.094-6.6,0-8.247ZM17.792,18.133a3.375,3.375,0,0,1-1.9,1.9c-1.316.522-4.439.4-5.894.4s-4.582.116-5.894-.4a3.375,3.375,0,0,1-1.9-1.9c-.522-1.317-.4-4.44-.4-5.9s-.116-4.583.4-5.9a3.375,3.375,0,0,1,1.9-1.9c1.316-.522,4.439-.4,5.894-.4s4.582-.116,5.894.4a3.375,3.375,0,0,1,1.9,1.9c.522,1.317.4,4.44.4,5.9S18.314,16.821,17.792,18.133Z" transform="translate(0.005 -2.238)" fill="#fafafa"/>
+                        </svg>
+                    </a>
+                </div>     
+            </div>
+        </div>
+        <div class="footer-part-2">
+            <div class="footer-absolute">
+                <div class="inner-absolute">
+                    <div class="inner-absolute-content-container">
+                        <h2 class="inner-absolute-header">Bizimlə əlaqə saxlayın</h2>
+                        <div class="inner-absolute-flex-container">
+                            <div class="inner-absolute-flex-1">
+                                <p>
+                                    <a class="footer-contact-links"  href="https://www.google.com/maps/place/1+M%C9%99sud+Davudo%C4%9Flu,+Bak%C4%B1,+%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD/@40.422465,49.8334264,17z/data=!3m1!4b1!4m5!3m4!1s0x403087dd621842a1:0x96bb37d1716932ca!8m2!3d40.4224609!4d49.8356151">Məsud Davudoğlu 1 D</a>
+                                </p>
+                                <p>
+                                        <span class="email">
+                                            <a class="footer-contact-links"  href='javascript:;'>
+                                        office@alyansgroup.az
+                                        </a>
+                                        </span>
+                                </p>
+
+                            </div>
+                            <div class="inner-absolute-flex-2">
+                                <p>
+                                    <a class="footer-contact-links"  href="tel: (+994 55) 639 70 31">
+                                        (+994 55) 639 70 31
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <a class="footer-contact-links"  href="tel:(+994 55) 256 40 04">
+                                        (+994 55) 256 40 04
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <a class="footer-contact-links" href="tel:(+994 55) 902 42 22">
+                                        (+994 55) 902 42 22
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="inner-absolute-hr">
+                    </div>
+                    <a target="_blank" class="footer-form-link" href="./form.html">
+                        <div class="footer-form-container">
+                            <p  class="footer-form-text">formu doldurun&nbsp;&nbsp;</p>
+                            <img class="footer-form-link-icon" src="assets/img/orange-arrow.svg" alt="">
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="footer-menu-container-585px">
+                <ul class="footer-menu-2">
+                    <li class="footer-li footer-li-header">Şirkət</li>
+                    <li class="footer-li hover-orange">Ana səhifə</li>
+                    <li class="footer-li hover-orange">Xidmətlər</li>
+                    <li class="footer-li hover-orange">Haqqımızda</li>
+                    <li class="footer-li hover-orange">Xəbərlər</li>
+                    <li class="footer-li hover-orange">Əlaqə</li>
+                </ul>
+
+                <ul class="footer-menu-3">
+                    <li class="footer-li footer-li-header">Xidmətlər</li>
+                    <li class="footer-li hover-orange">Mühasibat uçotu</li>
+                    <li class="footer-li hover-orange">Audit</li>
+                    <li class="footer-li hover-orange">Hesabatlar</li>
+                    <li class="footer-li hover-orange">Hüquqi məsələlər</li>
+                    <li class="footer-li hover-orange">Kadr uçotu</li>
+                    <li class="footer-li hover-orange">Bank-Müştəri sisteminin aparılması</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer-copyright">
+        2022 Alyans Group 19. Bütün hüquqları qorunur
+    </p>
+
+</footer>
+
+
+
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+ 
+<script src="assets/js/sub-service.js"></script>
+<script src="assets/js/sub-service-scroll.js"></script>
+ 
+</body>
+</html>

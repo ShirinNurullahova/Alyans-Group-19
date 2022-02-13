@@ -1,0 +1,55 @@
+header, footer, section {
+    overflow-x: hidden;
+}
+
+@keyframes index-example {
+  0% {
+    color: white;
+  }
+  25% {
+    color: white;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: orange;
+  }
+}
+
+@keyframes index-new-example {
+  0% {
+    color: rgb(71, 71, 71);
+  }
+  25% {
+    color: rgb(71, 71, 71);
+  }
+  50% {
+    color: rgb(71, 71, 71);
+  }
+  100% {
+    color: orange;
+  }
+}
+
+.nav-contacts-white span a,
+.lang-menu-container-white .nav-language-links {
+    transition: all 1s;
+}
+
+.nav-contacts-white span a:hover,
+.lang-menu-container-white .nav-language-links:hover {
+    color: orange;
+    animation: index-example 0.35s forwards;
+}
+
+.nav-contacts-black span a,
+.lang-menu-container-black .nav-language-links {
+  transition: all 1s;
+}
+
+.nav-contacts-black span a:hover,
+.lang-menu-container-black .nav-language-links:hover {
+    color: orange;
+    animation: index-new-example 0.35s forwards;
+}

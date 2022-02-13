@@ -1,0 +1,450 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="../assets/css/news-article-page.css">
+
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <nav class="nav-about">
+        <div class="nav-flex-divider">
+            <div class="logo-container">
+                <a href="./index-ru.html">  <img class="logo-image" src="../assets/img/AlyansGroup-black.svg" alt=""> </a>
+            </div>
+            <div class="nav-contacts">
+                        <span>
+                            <a class="about-nav-contact-links" href="https://www.google.com/maps/place/1+M%C9%99sud+Davudo%C4%9Flu,+Bak%C4%B1,+%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD/@40.422465,49.8334264,17z/data=!3m1!4b1!4m5!3m4!1s0x403087dd621842a1:0x96bb37d1716932ca!8m2!3d40.4224609!4d49.8356151" >
+                            Məsud Davudoğlu 1 D
+                            </a>
+                        </span>
+                <span class="dash">
+                            <img class="dash-image" src="../assets/img/dash-black.svg" alt="">
+                        </span>
+                <span  itemprop="telephone">
+                            <a class="about-nav-contact-links" href="tel:+994556397031">
+                            +994 55 639 70 31
+                            </a>
+                        </span>
+                <span class="dash">
+                            <img class="dash-image" src="../assets/img/dash-black.svg" alt="">
+                        </span>
+                <span class="email">
+                            <a class="about-nav-contact-links"  href='javascript:;'>
+                          office@alyansgroup.az
+                        </a>
+                        </span>
+                <span class="search-span">
+                            <a class="search-span search-span-desktop" href="#"> <img class="dash-image" src="../assets/img/search-icon-black.svg" alt="" /></a>
+                        </span>
+            </div>
+        </div>
+        <span class="search-span-copy">
+            <a class="search-span search-span-mobile" href="#"><img class="dash-image" src="../assets/img/search-icon-black.svg" alt=""></a>
+        </span>
+        <div class="lang-menu-container">
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="../single-service-page.html">az</a></span>
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="single-service-page-ru.html">ru</a></span>
+            <span class="lang"><a class="about-nav-contact-links nav-language-links" href="../english-pages/single-service-page-eng.html">eng</a></span>
+            <span class="menu-icon-container about-menu-icon-container pseMan" onclick="addMargin(this)">
+                <a class="menu-icon-container-link" href="##" >
+                    <span class="menu-icon-text about-menu-icon-text">menu</span>
+                </a>
+            </span>
+        </div>
+    
+    </nav>
+    
+    <div class="menu-overlay">
+        <div class="menu-overlay-container">
+            <ul class="menu">
+                <li class="menu-li"><a class="overlay-links" href="index-ru.html">Домашняя страница</a></li>
+                <li class="menu-li"><a class="overlay-links" href="service-ru.html">Наши услуги</a></li>
+                <li class="menu-li"><a class="overlay-links" href="about-ru.html">О нас</a></li>
+                <li class="menu-li"><a class="overlay-links" href="news-ru.html">Новости / Инновации</a></li>
+                <li class="menu-li"><a class="overlay-links" href="form-ru.html">Контакт</a></li>
+            </ul>
+        
+            <div class="menu-social-media-icon-container-div">
+        
+                <a class="overlay-links" href="https://www.youtube.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="youtube-icon-black" d="M16.679,17.438l8.5,4.83-8.5,4.83ZM40,6.536V37.964a4.287,4.287,0,0,1-4.286,4.286H4.286A4.287,4.287,0,0,1,0,37.964V6.536A4.287,4.287,0,0,1,4.286,2.25H35.714A4.287,4.287,0,0,1,40,6.536ZM36.25,22.277a42.9,42.9,0,0,0-.679-7.875A4.075,4.075,0,0,0,32.7,11.509c-2.527-.687-12.7-.687-12.7-.687s-10.17,0-12.7.688A4.075,4.075,0,0,0,4.429,14.4a42.85,42.85,0,0,0-.679,7.875,42.9,42.9,0,0,0,.679,7.875A4.017,4.017,0,0,0,7.3,33c2.527.679,12.7.679,12.7.679s10.17,0,12.7-.688a4.017,4.017,0,0,0,2.875-2.848,42.771,42.771,0,0,0,.679-7.866Z" transform="translate(0 -2.25)" fill="black"/>
+                    </svg>
+        
+                </a>
+                <a  class="overlay-links" id="social-media-icon-in-middle" href="https://www.facebook.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="fb-icon-black" d="M35.714,2.25H4.286A4.286,4.286,0,0,0,0,6.536V37.964A4.286,4.286,0,0,0,4.286,42.25H16.54v-13.6H10.915v-6.4H16.54V17.371c0-5.549,3.3-8.614,8.363-8.614a34.077,34.077,0,0,1,4.957.432v5.446H27.069c-2.751,0-3.609,1.707-3.609,3.458V22.25H29.6l-.982,6.4H23.46v13.6H35.714A4.286,4.286,0,0,0,40,37.964V6.536A4.286,4.286,0,0,0,35.714,2.25Z" transform="translate(0 -2.25)" fill="black"/>
+                    </svg>
+        
+                </a>
+                <a class="overlay-links" href="https://www.instagram.com">
+                    <svg class="overlay-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="insta-icon-black" d="M20,11.982A10.255,10.255,0,1,0,30.252,22.238,10.238,10.238,0,0,0,20,11.982Zm0,16.923a6.667,6.667,0,1,1,6.666-6.667A6.679,6.679,0,0,1,20,28.905ZM33.063,11.563a2.392,2.392,0,1,1-2.392-2.392A2.386,2.386,0,0,1,33.063,11.563Zm6.791,2.428c-.152-3.2-.883-6.043-3.23-8.381s-5.176-3.07-8.379-3.231c-3.3-.187-13.2-.187-16.5,0C8.55,2.53,5.713,3.262,3.366,5.6S.3,10.777.135,13.982c-.187,3.3-.187,13.2,0,16.5.152,3.2.883,6.043,3.23,8.381s5.176,3.07,8.379,3.231c3.3.187,13.2.187,16.5,0,3.2-.152,6.041-.884,8.379-3.231s3.07-5.177,3.23-8.381c.187-3.3.187-13.192,0-16.494ZM35.589,34.028a6.749,6.749,0,0,1-3.8,3.8c-2.632,1.044-8.879.8-11.788.8s-9.165.232-11.788-.8a6.749,6.749,0,0,1-3.8-3.8c-1.044-2.633-.8-8.881-.8-11.791s-.232-9.167.8-11.791a6.749,6.749,0,0,1,3.8-3.8c2.632-1.044,8.879-.8,11.788-.8s9.165-.232,11.788.8a6.749,6.749,0,0,1,3.8,3.8c1.044,2.633.8,8.881.8,11.791S36.633,31.4,35.589,34.028Z" transform="translate(0.005 -2.238)" fill="black"/>
+                    </svg>
+        
+                </a>
+        
+            </div>
+        </div>
+    </div>
+    
+
+</header>
+
+
+<div class="modal-bg">
+    <div class="modal">
+        <div class="modal-wrapper">
+            <div class="modal-close">
+            </div>
+        </div>
+        <div class="modal-input-wrapper">
+            <input type="text" placeholder="Сделайте поиск" class="modal-input" >
+        </div>
+
+    </div>
+</div>
+<section class="who-we-are">
+    <div class="whois about ">
+        <div class="general-news-page-content-container">
+            <div class="animation-subheader">
+                <span>СЕРВИСЫ</span>
+            </div>
+            <h1 class="general-news-page-content-header news-page-header-color animation-subheader">Аудит</h1>
+            <p class="general-news-page-content-subheader animation-header">Своевременная, полная, оперативная и юридическая проверка отчетов</p>
+        </div>
+    </div>
+
+    <div class="single-service-container">
+        <div class="single-service-container-title single-service-container-title-ru">
+            <p class="single-service-container-title-item single-service-container-title-item-left single-service-container-title-item-ru">• Обязательный аудит</p>
+            <p class="single-service-container-title-item single-service-container-title-item-right">• Экспресс-аудит</p>
+            <p class="single-service-container-title-item single-service-container-title-item-left">• Налоговый аудит предприятий ООО и ИП</p>
+            <p class="single-service-container-title-item single-service-container-title-item-right">• Аудит бухгалтерского учета ООО и ИП</p>
+            <p class="single-service-container-title-item single-service-container-title-item-right">• Инициативный аудит</p>
+        </div>
+    </div>
+
+    <div class="news-article-section">
+        <div class="news-page-article">
+            <div class="general-news-page-content-container">
+                <h1 class="news-page-title animation-description">Обязательный аудит</h1>
+            </div>
+        </div>
+
+        <div class="news-page-description-box">
+            <div class="article">
+
+                <div class="text-container text-container-service-main">
+
+                    <p class="general-news-page-content-description">Обязательная аудиторская проверка – плановый ежегодный независимый аудит бухгалтерского учета, а также финансовой отчетности субъектов экономической деятельности, который в соответствии с действующим законодательством должна проходить такую проверку.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-first">
+                    <p class="general-news-page-content-description">• <span>aa</span>Официальное подтверждение достоверности бухгалтерской отчетности организации.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-first">
+                    <p class="general-news-page-content-description">• <span>aa</span>Оценка качества организации внутреннего контроля, документооборота и бухгалтерского учет.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-first">
+                    <p class="general-news-page-content-description">• <span>aa</span>Предоставление аудиторского заключения, комментариев и разъяснений по всем вопросам, касающимся ведения бухгалтерского и налогового учета, составления отчетности и т.д.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-first">
+                    <p class="general-news-page-content-description">• <span>aa</span>Выработка рекомендаций и подготовка отчета по результатам аудиторской проверки.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="news-page-article">
+            <div class="general-news-page-content-container">
+                <h1 class="news-page-title animation-description-one">Кому это нужно?</h1>
+            </div>
+        </div>
+
+        <div class="news-page-description-box">
+            <div class="article">
+
+                <div class="text-container text-container-service-second">
+
+                    <p class="general-news-page-content-description">Обязательному аудиту подлежат:</p>
+
+                </div>
+
+                <div class="text-container text-container-service-second">
+                    <p class="general-news-page-content-description">• <span>aa</span>Государственные внебюджетные и инвестиционные фонды, кредитные и страховые организации, а также общества взаимного страхования, фондовые (товарные) биржи, для которых источники образования финансовых средств предусмотрены действующим законодательством РФ.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-second">
+                    <p class="general-news-page-content-description">• <span>aa</span>Фирмы, у которых сумма имеющихся активов по состоянию на конец года, предшествовавший отчетному, составляет более чем 60 миллионов рублей.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-second">
+                    <p class="general-news-page-content-description">• <span>aa</span>Открытые акционерные общества, в независимости от показателей финансовой отчетности, страховые, кредитные, инвестиционные организации и гуманитарные предприятия, а также другие организации, для которых обязательная проверка (аудит) предусмотрена федеральными законами.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-second">
+                    <p class="general-news-page-content-description">• <span>aa</span>Юридические лица, у которых объем выручки от продаж продукции, выполнения работ или оказания услуг организации за год, предшествовавший отчетному, составляет более чем 400 миллионов рублей. Исключением в данном случае является сотрудничество с сельскохозяйственными кооперативами и союзами этих кооперативов.</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="news-page-article">
+            <div class="general-news-page-content-container">
+                <h1 class="news-page-title animation-description-two">Что я получу?</h1>
+            </div>
+        </div>
+
+        <div class="news-page-description-box">
+            <div class="article">
+
+                <div class="text-container text-container-service-third">
+
+                    <p class="general-news-page-content-description">По результатам обязательного аудита предоставляется:</p>
+
+                </div>
+
+                <div class="text-container text-container-service-third">
+                    <p class="general-news-page-content-description">• <span>aa</span>Соответствующее аудиторское заключение, в котором аудитор имеет возможность выразить свое собственное профессиональное мнение относительно достоверности предоставленной компаний финансовой отчетности.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-third">
+                    <p class="general-news-page-content-description">• <span>aa</span>Отчет аудитора, представленный в письменном виде и в котором специалистом подробно описываются все замечания и рекомендации по исправлению выявленных ошибок, неточностей.</p>
+
+                </div>
+
+                <div class="text-container text-container-service-third">
+                    <p class="general-news-page-content-description">• <span>aa</span>Результаты проведенного финансового анализа по восьми ключевым показателям деятельности вашей организации.</p>
+
+                </div>
+
+                <div class="general-news-page-content-container" style="display: inline-flex; flex-direction: column">
+                    <a class="general-news-page-content-links new-distant-links" href="service-ru.html"><p>Услуги</p><span><img class="general-news-page-content-arrow" src="../assets/img/orange-arrow.svg" alt=""></span></a>
+                    <a class="general-news-page-content-links new-distant-links new-distant-links-last" href="index-ru.html"><p>Домашняя страница</p><span><img class="general-news-page-content-arrow" src="../assets/img/orange-arrow.svg" alt=""></span></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="footer-single-service">
+        <div class="footer-single-service-left">
+            <p>Вас интересуют наши аудиторские услуги?</p>
+        </div>
+        <div class="footer-single-service-right">
+            <a class="content-links whois-links new-distant-links" href="form-ru.html"><p class="text-outline text-outline-service">Cвязаться с нами</p><span><img class="content-arrow second" src="../assets/img/arrow-white.png" alt=""></span></a>
+        </div>
+    </div>
+
+    <div class="footer-flex-sections-container">
+        <div class="footer-part-1">
+            <img class="footer-logo" src="../assets/img/AlyansGroup-white.svg" alt="">
+            <div class="footer-social-icons-container-585px footer-li">
+                <a class="footer-li-img-1" href="#">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path id="linkedin-icon-white" d="M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.858V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.074V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.763,4.968,6.353V20Z" transform="translate(0 -0.001)" fill="#fafafa"/>
+                    </svg>
+                </a>
+                <a  class="footer-li-img-2" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path id="fb-icon-white" d="M17.857,2.25H2.143A2.143,2.143,0,0,0,0,4.393V20.107A2.143,2.143,0,0,0,2.143,22.25H8.27v-6.8H5.458v-3.2H8.27V9.811C8.27,7.036,9.922,5.5,12.452,5.5a17.039,17.039,0,0,1,2.479.216V8.443h-1.4a1.6,1.6,0,0,0-1.8,1.729V12.25H14.8l-.491,3.2H11.73v6.8h6.127A2.143,2.143,0,0,0,20,20.107V4.393A2.143,2.143,0,0,0,17.857,2.25Z" transform="translate(0 -2.25)" fill="#fafafa"/>
+                    </svg>
+                </a>
+                <a class="footer-li-img-3" href="#">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                        <path id="insta-icon-white" d="M10,7.11a5.128,5.128,0,1,0,5.127,5.128A5.119,5.119,0,0,0,10,7.11Zm0,8.461a3.334,3.334,0,1,1,3.333-3.334A3.339,3.339,0,0,1,10,15.571ZM16.529,6.9a1.2,1.2,0,1,1-1.2-1.2A1.193,1.193,0,0,1,16.529,6.9Zm3.4,1.214a5.92,5.92,0,0,0-1.615-4.191,5.956,5.956,0,0,0-4.19-1.616c-1.651-.094-6.6-.094-8.25,0A5.947,5.947,0,0,0,1.68,3.919,5.939,5.939,0,0,0,.065,8.11c-.094,1.651-.094,6.6,0,8.252A5.92,5.92,0,0,0,1.68,20.552a5.963,5.963,0,0,0,4.19,1.616c1.651.094,6.6.094,8.25,0a5.917,5.917,0,0,0,4.19-1.616,5.959,5.959,0,0,0,1.615-4.191c.094-1.651.094-6.6,0-8.247ZM17.792,18.133a3.375,3.375,0,0,1-1.9,1.9c-1.316.522-4.439.4-5.894.4s-4.582.116-5.894-.4a3.375,3.375,0,0,1-1.9-1.9c-.522-1.317-.4-4.44-.4-5.9s-.116-4.583.4-5.9a3.375,3.375,0,0,1,1.9-1.9c1.316-.522,4.439-.4,5.894-.4s4.582-.116,5.894.4a3.375,3.375,0,0,1,1.9,1.9c.522,1.317.4,4.44.4,5.9S18.314,16.821,17.792,18.133Z" transform="translate(0.005 -2.238)" fill="#fafafa"/>
+                    </svg>
+                </a>
+            </div>
+
+
+            <div class="footer-menu-container">
+                <ul class="footer-menu-2">
+                    <li class="footer-li footer-li-header">Компания</li>
+                    <li class="footer-li"> <a class="footer-general-text-links" href="index-ru.html">Домашняя страница</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="service-ru.html">Услуги</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="about-ru.html">О нас</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="news-ru.html">Новости</a></li>
+                    <li class="footer-li"><a class="footer-general-text-links" href="form-ru.html">Контакт</a></li>
+                </ul>
+                <ul class="footer-menu-3">
+                    <li class="footer-li footer-li-header">Услуги</li>
+                    <li class="footer-li"><a href="footer-general-text-links">Бухгалтерский учет</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Аудит</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Отчеты</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Юридические проблемы</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Кадровый учет</a></li>
+                    <li class="footer-li"><a href="footer-general-text-links">Сопровождение системы Банк-Клиент</a></li>
+                </ul>
+                <ul class="footer-menu-1">
+                    <li class="footer-li footer-li-header">Язык</li>
+                    <li class="footer-li"><a href="../single-service-page.html">az</a></li>
+                    <li class="footer-li"><a href="single-service-page-ru.html">ru</a></li>
+                    <li class="footer-li"><a href="../english-pages/single-service-page-eng.html">eng</a></li>
+                    <li class="footer-social-icons-container footer-li">
+                        <a class="footer-li-img-1" href="#">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="linkedin-icon-white" d="M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.858V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.074V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.763,4.968,6.353V20Z" transform="translate(0 -0.001)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+                        <a  class="footer-li-img-2" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="fb-icon-white" d="M17.857,2.25H2.143A2.143,2.143,0,0,0,0,4.393V20.107A2.143,2.143,0,0,0,2.143,22.25H8.27v-6.8H5.458v-3.2H8.27V9.811C8.27,7.036,9.922,5.5,12.452,5.5a17.039,17.039,0,0,1,2.479.216V8.443h-1.4a1.6,1.6,0,0,0-1.8,1.729V12.25H14.8l-.491,3.2H11.73v6.8h6.127A2.143,2.143,0,0,0,20,20.107V4.393A2.143,2.143,0,0,0,17.857,2.25Z" transform="translate(0 -2.25)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+                        <a class="footer-li-img-3" href="#">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="insta-icon-white" d="M10,7.11a5.128,5.128,0,1,0,5.127,5.128A5.119,5.119,0,0,0,10,7.11Zm0,8.461a3.334,3.334,0,1,1,3.333-3.334A3.339,3.339,0,0,1,10,15.571ZM16.529,6.9a1.2,1.2,0,1,1-1.2-1.2A1.193,1.193,0,0,1,16.529,6.9Zm3.4,1.214a5.92,5.92,0,0,0-1.615-4.191,5.956,5.956,0,0,0-4.19-1.616c-1.651-.094-6.6-.094-8.25,0A5.947,5.947,0,0,0,1.68,3.919,5.939,5.939,0,0,0,.065,8.11c-.094,1.651-.094,6.6,0,8.252A5.92,5.92,0,0,0,1.68,20.552a5.963,5.963,0,0,0,4.19,1.616c1.651.094,6.6.094,8.25,0a5.917,5.917,0,0,0,4.19-1.616,5.959,5.959,0,0,0,1.615-4.191c.094-1.651.094-6.6,0-8.247ZM17.792,18.133a3.375,3.375,0,0,1-1.9,1.9c-1.316.522-4.439.4-5.894.4s-4.582.116-5.894-.4a3.375,3.375,0,0,1-1.9-1.9c-.522-1.317-.4-4.44-.4-5.9s-.116-4.583.4-5.9a3.375,3.375,0,0,1,1.9-1.9c1.316-.522,4.439-.4,5.894-.4s4.582-.116,5.894.4a3.375,3.375,0,0,1,1.9,1.9c.522,1.317.4,4.44.4,5.9S18.314,16.821,17.792,18.133Z" transform="translate(0.005 -2.238)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-part-2">
+            <div class="footer-absolute">
+                <div class="inner-absolute">
+                    <div class="inner-absolute-content-container">
+                        <h2 class="inner-absolute-header">Связаться с нами</h2>
+                        <div class="inner-absolute-flex-container">
+                            <div class="inner-absolute-flex-1">
+                                <p>
+                                    <a class="footer-contact-links"  href="https://www.google.com/maps/place/1+M%C9%99sud+Davudo%C4%9Flu,+Bak%C4%B1,+%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD/@40.422465,49.8334264,17z/data=!3m1!4b1!4m5!3m4!1s0x403087dd621842a1:0x96bb37d1716932ca!8m2!3d40.4224609!4d49.8356151">Məsud Davudoğlu 1 D</a>
+                                </p>
+                                <p>
+                                        <span class="email">
+                                            <a class="footer-contact-links"  href='javascript:;'>
+                                        office@alyansgroup.az
+                                        </a>
+                                        </span>
+                                </p>
+
+                            </div>
+                            <div class="inner-absolute-flex-2">
+                                <p>
+                                    <a class="footer-contact-links"  href="tel: (+994 55) 639 70 31">
+                                        (+994 55) 639 70 31
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <a class="footer-contact-links"  href="tel:(+994 55) 256 40 04">
+                                        (+994 55) 256 40 04
+                                    </a>
+                                </p>
+
+                                <p>
+                                    <a class="footer-contact-links" href="tel:(+994 55) 902 42 22">
+                                        (+994 55) 902 42 22
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="inner-absolute-hr">
+                    </div>
+                    <a target="_blank" class="footer-form-link" href="form-ru.html">
+                        <div class="footer-form-container footer-form-container-ru">
+                            <p  class="footer-form-text">заполните форму&nbsp;&nbsp;</p>
+                            <img class="footer-form-link-icon" src="../assets/img/orange-arrow.svg" alt="">
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="footer-menu-container-585px">
+                <ul class="footer-menu-1">
+                    <li class="footer-li footer-li-header">Язык</li>
+                    <li class="footer-li">az</li>
+                    <li class="footer-li">ru</li>
+                    <li class="footer-li">eng</li>
+                    <li class="footer-social-icons-container footer-li">
+                        <a class="footer-li-img-1" href="https://www.linkedin.com/posts/scottdresden_shortcut-learning-in-deep-neural-networks-activity-6736988008546922496-7yg2">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="linkedin-icon-white" d="M4.477,20H.33V6.648H4.477ZM2.4,4.826A2.413,2.413,0,1,1,4.8,2.4,2.422,2.422,0,0,1,2.4,4.826ZM20,20H15.858V13.5c0-1.549-.031-3.536-2.156-3.536-2.156,0-2.486,1.683-2.486,3.424V20H7.074V6.648h3.977V8.469h.058a4.357,4.357,0,0,1,3.923-2.156c4.2,0,4.968,2.763,4.968,6.353V20Z" transform="translate(0 -0.001)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+                        <a  class="footer-li-img-2" href="https://www.facebook.com/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="fb-icon-white" d="M17.857,2.25H2.143A2.143,2.143,0,0,0,0,4.393V20.107A2.143,2.143,0,0,0,2.143,22.25H8.27v-6.8H5.458v-3.2H8.27V9.811C8.27,7.036,9.922,5.5,12.452,5.5a17.039,17.039,0,0,1,2.479.216V8.443h-1.4a1.6,1.6,0,0,0-1.8,1.729V12.25H14.8l-.491,3.2H11.73v6.8h6.127A2.143,2.143,0,0,0,20,20.107V4.393A2.143,2.143,0,0,0,17.857,2.25Z" transform="translate(0 -2.25)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+                        <a class="footer-li-img-3" href="https://www.instagram.com">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                                <path id="insta-icon-white" d="M10,7.11a5.128,5.128,0,1,0,5.127,5.128A5.119,5.119,0,0,0,10,7.11Zm0,8.461a3.334,3.334,0,1,1,3.333-3.334A3.339,3.339,0,0,1,10,15.571ZM16.529,6.9a1.2,1.2,0,1,1-1.2-1.2A1.193,1.193,0,0,1,16.529,6.9Zm3.4,1.214a5.92,5.92,0,0,0-1.615-4.191,5.956,5.956,0,0,0-4.19-1.616c-1.651-.094-6.6-.094-8.25,0A5.947,5.947,0,0,0,1.68,3.919,5.939,5.939,0,0,0,.065,8.11c-.094,1.651-.094,6.6,0,8.252A5.92,5.92,0,0,0,1.68,20.552a5.963,5.963,0,0,0,4.19,1.616c1.651.094,6.6.094,8.25,0a5.917,5.917,0,0,0,4.19-1.616,5.959,5.959,0,0,0,1.615-4.191c.094-1.651.094-6.6,0-8.247ZM17.792,18.133a3.375,3.375,0,0,1-1.9,1.9c-1.316.522-4.439.4-5.894.4s-4.582.116-5.894-.4a3.375,3.375,0,0,1-1.9-1.9c-.522-1.317-.4-4.44-.4-5.9s-.116-4.583.4-5.9a3.375,3.375,0,0,1,1.9-1.9c1.316-.522,4.439-.4,5.894-.4s4.582-.116,5.894.4a3.375,3.375,0,0,1,1.9,1.9c.522,1.317.4,4.44.4,5.9S18.314,16.821,17.792,18.133Z" transform="translate(0.005 -2.238)" fill="#fafafa"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="footer-menu-2">
+                    <li class="footer-li footer-li-header">Компания</li>
+                    <li class="footer-li">Домашняя страница</li>
+                    <li class="footer-li">Услуги</li>
+                    <li class="footer-li">О нас</li>
+                    <li class="footer-li">Новости</li>
+                    <li class="footer-li">Контакт</li>
+                </ul>
+                <ul class="footer-menu-3">
+                    <li class="footer-li footer-li-header">Услуги</li>
+                    <li class="footer-li">Бухгалтерский учет</li>
+                    <li class="footer-li">Аудит</li>
+                    <li class="footer-li">Отчеты</li>
+                    <li class="footer-li">Юридические проблемы</li>
+                    <li class="footer-li">Кадровый учет</li>
+                    <li class="footer-li">Сопровождение системы Банк-Клиент</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p class="footer-copyright">
+        2022 Alliance Group 19. Все права защищены.
+    </p>
+
+</footer>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+
+<script src="js-ru/about.js"></script>
+<script src="../assets/js/single-service-scroll.js"></script>
+
+</body>
+</html>
